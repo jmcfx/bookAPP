@@ -44,11 +44,10 @@ class OnboardingContent extends StatelessWidget {
                 style: const TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.w400,
-                )),
+                ),),
           ),
         ),
         const Spacer()
       ],
     );
-  }
-}
+  }}

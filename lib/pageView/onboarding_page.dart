@@ -1,6 +1,5 @@
 import 'package:bookapp/constants/page_routes.dart';
 import 'package:flutter/material.dart';
-import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import '../pageView/onboarding_content.dart';
 
 class OnboardingPage extends StatefulWidget {
@@ -29,7 +28,6 @@ class _OnboardingPageState extends State<OnboardingPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(20.0),
@@ -124,6 +122,7 @@ class Onboard {
   Onboard(
       {required this.image, required this.title, required this.description});
 }
+
 //Onboarding data List
 final List<Onboard> onboardingData = [
   Onboard(
