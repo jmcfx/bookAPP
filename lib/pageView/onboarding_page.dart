@@ -28,6 +28,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(20.0),
@@ -52,7 +53,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
               Row(
                 children: [
                   ...List.generate(
-                      onboardingData.length,
+                      onboardingData.length, 
                       (index) => Padding(
                             padding: const EdgeInsets.only(right: 3),
                             child: DotIndicator(isActive: index == _pageIndex),
@@ -126,18 +127,18 @@ class Onboard {
 //Onboarding data List
 final List<Onboard> onboardingData = [
   Onboard(
-    image: "/Applications/Desktop/Workspace/bookapp/lib/images/Group1.png",
+    image: "assets/onboarding_images/Group1.png",
     title: "Read on the go!",
     description:
         "Download the best books on your mobile phone now and read on the go! ",
   ),
   Onboard(
-    image: "/Applications/Desktop/Workspace/bookapp/lib/images/Group2.png",
+    image: "assets/onboarding_images/Group2.png",
     title: "Your favorite books in your hands",
     description: "All the books you need are now with you everywhere you go",
   ),
   Onboard(
-      image: "/Applications/Desktop/Workspace/bookapp/lib/images/Group3.png",
+      image: "assets/onboarding_images/Group3.png",
       title: "Jump right in! ",
       description: "You can read any book at your disposal")
 ];

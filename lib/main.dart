@@ -1,3 +1,5 @@
+import 'package:bookapp/base/base_view.dart';
+import 'package:bookapp/bookpage/book_url.dart';
 import 'package:bookapp/homepage.dart/homepage_screen.dart';
 import 'package:bookapp/pageView/onboarding_page.dart';
 import 'package:flutter/material.dart';
@@ -15,7 +17,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: const OnboardingPage(),
       routes: {
-        homepageRoutes: (context) => const Homepage(),
+        homepageRoutes: (context) => const BaseView(),
+        bookPageRoutes :(context) => const BookPage(),
       },
     );
   }

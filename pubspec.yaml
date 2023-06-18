@@ -35,6 +35,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   smooth_page_indicator: ^1.1.0
+  carousel_slider: ^4.2.1
 
 
 dev_dependencies:
@@ -59,8 +60,17 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  #assets:
-  #   - /Applications/Desktop/Workspace/bookapp/lib/images
+  assets:
+  #   onboarding image
+     - assets/onboarding_images/Group1.png
+     - assets/onboarding_images/Group2.png
+     - assets/onboarding_images/Group3.png
+  #   imageSlide 
+     - assets/imageSlides/slide1.png
+     - assets/imageSlides/slide2.png
+     - assets/imageSlides/slide3.png
+     - assets/imageSlides/slide4.png
+     - assets/imageSlides/slide5.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
