@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData.light(),
       home: const OnboardingPage(),
       routes: {
         homepageRoutes: (context) => const BaseView(),

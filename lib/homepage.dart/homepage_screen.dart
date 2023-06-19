@@ -1,6 +1,5 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-
 import '../imageSlides/image_slides.dart';
 
 class Homepage extends StatefulWidget {
@@ -42,10 +41,10 @@ class _HomepageState extends State<Homepage> {
                   )
                 ],
               ),
-              // const SizedBox(
-              //   height: 45,
-              // ),
-              const Spacer(),
+               const SizedBox(
+                 height: 70,
+               ),
+              // const Spacer(),
               //imageSlide....
               Padding(
                 padding: const EdgeInsets.all(2),
@@ -80,6 +79,7 @@ class _HomepageState extends State<Homepage> {
                   ),
                 ),
               ),
+              const Spacer(),
               const Spacer(),
             ],
           ),
